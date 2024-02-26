@@ -468,6 +468,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
   }
   .pine {
     border-style: solid;
@@ -485,8 +486,8 @@
   .picture {
     height: 315px;
     width: 315px;
-    border-color: black;
-    border-style: solid;
+    /* border-color: black;
+    border-style: solid; */
     display: flex;
     flex-wrap: wrap;
     gap: 17px;
@@ -596,18 +597,159 @@
     font-size: 18px;
   }
   .tours {
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid;
+    border-color: black; */
     height: 160px;
     width: 312px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .of {
     width: 312px;
-    height: 118px;
-    border-style: solid;
-    border-color: red;
+    height: 99px;
+    /* border-style: solid;
+    border-color: red; */
     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pack {
+    height: 373px;
+    width: 308px;
+    border-style: solid;
+    border-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pack1 {
+    height: 373px;
+    width: 308px;
+    /* border-style: solid;
+    border-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .luxury {
+    width: 315px;
+    height: 783px;
+    /* border-style: solid;
+    border-color: black; */
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fourth {
+    /* border-style: solid; */
+    /* border-color: red; */
+    height: 459px;
+    width: 375px;
+    background-color: black;
+  }
+  .button {
+    width: 375px;
+    height: 183px;
+    /* border-style: solid;
+    border-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .last {
+    height: 276px;
+    width: 375px;
+    /* border-style: solid;
+    border-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .facebook {
+    height: 196px;
+    width: 300px;
+    /* border-style: solid;
+    border-color: green; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .social {
+    width: 300px;
+    height: 108px;
+    /* border-style: solid;
+    border-color: black; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .third {
+    /* border-style: solid; */
+    /* border-color: black; */
+    height: 950px;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .price {
+    height: 950px;
+    width: 315px;
+    /* border-style: solid;
+    border-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .second {
+    /* border-style: solid;
+    border-color: black; */
+    height: 594px;
+
+    display: flex;
+    justify-content: center;
+  }
+  .our {
+    width: 299px;
+    height: 90px;
+    /* border-style: solid;
+    border-color: black; */
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .brand {
+    color: #18c74a;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .pricing {
+    width: 299px;
+    height: 110px;
+    /* border-color: black;
+    border-style: solid; */
+  }
+  .split {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    width: 300px;
+    height: 68px;
+  }
+  .father {
+    height: 3133px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
